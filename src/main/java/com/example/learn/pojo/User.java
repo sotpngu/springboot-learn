@@ -1,8 +1,11 @@
 package com.example.learn.pojo;
 
+import com.example.learn.enumeration.SexEnum;
+
 public class User {
     private Long id;
     private String userName;
+    private SexEnum sex;
     private String note;
 
     public Long getId() {
@@ -19,6 +22,14 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public SexEnum getSex() {
+        return sex;
+    }
+
+    public void setSex(SexEnum sex) {
+        this.sex = sex;
     }
 
     public String getNote() {

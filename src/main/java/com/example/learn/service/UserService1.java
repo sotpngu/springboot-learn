@@ -6,4 +6,6 @@ public interface UserService1 {
 
     public void printUser(User user);
 
+    public void manyAspects();
+
 }

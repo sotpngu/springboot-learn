@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConfigurationProperties("database")
+//@Component
+//@ConfigurationProperties("database")
 public class DataBaseProperties {
 
     // @Value("${database.driverName}")
@@ -48,7 +48,7 @@ public class DataBaseProperties {
         return password;
     }
 
-    @Value("${database.password}")
+    //@Value("${database.password}")
     public void setPassword(String password) {
         this.password = password;
     }
